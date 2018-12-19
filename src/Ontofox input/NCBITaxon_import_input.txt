@@ -1,0 +1,40 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogg/NCBITaxon_import.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9606   #Homo sapiens (Human) 
+http://purl.obolibrary.org/obo/NCBITaxon_10090  #Mus musculus (house mouse)
+http://purl.obolibrary.org/obo/NCBITaxon_559292 #Saccharomyces cerevisiae S288c
+http://purl.obolibrary.org/obo/NCBITaxon_6239   #Caenorhabditis elegans (nematode or roundworm)
+http://purl.obolibrary.org/obo/NCBITaxon_7955   #Danio rerio (zebrafish) 
+http://purl.obolibrary.org/obo/NCBITaxon_7227   #Drosophila melanogaster (common fruit fly)
+http://purl.obolibrary.org/obo/NCBITaxon_36329  #Plasmodium falciparum strain 3D7 
+
+http://purl.obolibrary.org/obo/NCBITaxon_511145 #Escherichia coli strain K-12 substrain MG1655
+http://purl.obolibrary.org/obo/NCBITaxon_224914 #Brucella melitensis 16M 
+http://purl.obolibrary.org/obo/NCBITaxon_83332  #Mycobacterium tuberculosis strain H37Rv
+http://purl.obolibrary.org/obo/NCBITaxon_208964 #Pseudomonas aeruginosa strain PAO1  
+
+http://purl.obolibrary.org/obo/NCBITaxon_335341 #influenza virus H3N2
+http://purl.obolibrary.org/obo/NCBITaxon_11676  #Human immunodeficiency virus 1 (HIV-1)
+
+http://purl.obolibrary.org/obo/NCBITaxon_3702   #Arabidopsis thaliana (thale cress)
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2             #Bacteria
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026  #organism
+http://purl.obolibrary.org/obo/NCBITaxon_2759          #Eukaryota
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026  #organism
+http://purl.obolibrary.org/obo/NCBITaxon_2157          #Archaea 
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026  #organism
+http://purl.obolibrary.org/obo/NCBITaxon_10239         #viruses
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026  #organism
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
